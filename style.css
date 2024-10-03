@@ -1,0 +1,42 @@
+
+.homepage{
+    margin: 0%;
+    height: 100vh;
+    background-color: rgb(107, 81, 81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    height: 460px;
+    width: 300px;
+    background-image: url(abhi.jpg.jpeg);
+    border: 2px solid black;
+    border-radius: 7px;
+    
+}
+
+#display{
+    margin: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 40px;
+    background-color: rgb(103, 202, 202);
+    border: 2px solid black;
+}
+
+#button_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    border: 1.8px solid black;
+    border-radius: 5px;
+    margin: 10px 7px;
+    background-color: rgb(116, 82, 84);
+    font-size: 23px;
+}
